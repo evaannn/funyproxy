@@ -11,7 +11,6 @@ const manager = new ProxyManager();
 
 const proxyList = [
     new ProxyServer(),
-    new ProxyServer(),
     new ProxyServer()
 ];
 
@@ -34,10 +33,6 @@ manager.listen(8080, () => {
     console.log('Proxy manager listening on port 8080');
 });
 
-// stop the manager
-manager.close(() => {
-    console.log('Proxy manager closed');
-});
 
 // stop the proxies
 for (let i = 0; i < proxyList.length; i++) {
