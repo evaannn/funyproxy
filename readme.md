@@ -1,12 +1,5 @@
 # funyproxy 
 
-This package provides a rotating HTTP proxy manager and basic proxy server. The proxy manager can be used to create a pool of HTTP proxies that can be used to make requests. Both the manager and the proxy server support HTTP, HTTPS, WebSockets, and secure websockets.
-
-## Installation
-
-```bash
-npm install funyproxy
-```
 
 ## Usage
 ```typescript
